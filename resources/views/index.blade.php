@@ -29,7 +29,7 @@
                         false
                         @endif
                     </b></p>
-                    <p class="card-text red">Cancellato: <b>
+                    <p class="card-text">Cancellato: <b>
                         @if ($train->cancellato === 1)
                         true
                         @else 
